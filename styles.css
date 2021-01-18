@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#showcase {
+    background: #252A34 url(./images/banner2.jpg) no-repeat center center/cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    color: #fff;
+    position: relative;
+}
+
+nav {
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px 60px 0 60px;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 1px;
+    padding-left: 1px;
+}
+
+nav li span {
+    padding-left: 10px;
+}
+
+li a {
+    padding: 10px;
+    background-color: white;
+    text-decoration: none;
+}
+
+.cart ion-icon {
+    vertical-align: bottom;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.cart a {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container,
+.products-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-bottom: 0%;
+}
+
+
+/* this is image  */
+
+.image {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-bottom: 0%;
+    position: relative;
+    overflow: hidden;
+}
+
+.add-cart {
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.image:hover .cart1,
+.image:hover .cart2,
+.image:hover .cart3,
+.image:hover .cart4 {
+    bottom: 50px;
+    opacity: 1;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.py-1 {
+    padding: 1.5rem 0;
+}
+
+.primary-text {
+    color: #FF2E63;
+}
+
+.l-heading {
+    font-size: 3rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.showcase-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.l-heading {
+    font-size: 3rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.bg-dark {
+    background-color: #252A34;
+    color: #fff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.py-1 {
+    padding: 1.5rem 0;
+}
+
+
+/* Cart page */
+
+.products-container {
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.products-container ion-icon {
+    font-size: 25px;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.product-header {
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid lightgray;
+    margin: 0 auto;
+}
+
+.product-title {
+    width: 45%;
+}
+
+.price {
+    width: 15%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.quantity {
+    width: 30%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.total {
+    width: 10%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.product {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.product ion-icon {
+    cursor: pointer;
+}
+
+.products {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product img {
+    width: 75px;
+}
+
+.basketTotalContainer {
+    display: flex;
+    justify-content: flex-end;
+    /* width: 100px; */
+    padding: 10px 0;
+}
+
+.basketTotalTitle {
+    min-width: 100px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 374px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.custom-select {
+    position: flex;
+    font-family: Arial;
+    bottom: 20px;
+}
